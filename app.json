@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/home",
+    "pages/index/index",
+    "pages/order/order",
+    "pages/pay/pay",
+    "pages/end/end"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信点餐",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "subPackages": [
+    {
+    "root": "shopping",
+    "name": "shopping",
+    "pages": [
+      "pages/shop_house/shop_house"
+    ],
+    "independent": false
+    }
+  ],
+  "sitemapLocation": "sitemap.json"
+}

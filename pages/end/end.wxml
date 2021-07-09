@@ -1,0 +1,4 @@
+<!--pages/end/end.wxml-->
+<view>
+  <image src="../index/image/end.png" class="img"></image>
+</view>
